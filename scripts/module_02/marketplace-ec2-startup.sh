@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt-get update
 sudo apt-get -y install git
-git clone https://github.com/ryanmurakami/hbfl.git /home/bitnami/hbfl
+git clone https://github.com/SwePha/hbfl /home/bitnami/hbfl
 chown -R bitnami: /home/bitnami/hbfl
 cd /home/bitnami/hbfl
 sudo npm i
